@@ -6,7 +6,9 @@ You can find an example of how to use this class in generate_nlu_data.py script 
 
 ## JSON file format
 The RasaFAQGenerator can read a file formated the following way:
+```json
 [
 {"term": "The term you are describing (your question)", "desc_short": "Description of the term. This would be an answer which Rasa will be using when user requests for describe the term"},
 ...
 ]
+```
